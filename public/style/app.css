@@ -1,0 +1,75 @@
+body {
+  background: white;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+.main-header {
+  display: flex;
+  background: whitesmoke;
+}
+.main-header .file-info {
+  padding: 5px;
+}
+.main-header .file-info .unit-chapter-lesson {
+  font-size: 1.4em;
+  margin: 0;
+  line-height: 1.4;
+}
+.main-header .file-info .title {
+  font-size: 1.2em;
+  margin: 0;
+  line-height: 1.4;
+  cursor: pointer;
+}
+.main-header .file-info .title.untitled {
+  font-style: italic;
+}
+.main-header .menu button {
+  color: black;
+  background: lightgray;
+  border: none;
+  padding: 5px;
+  font-size: 1.2em;
+}
+.main-header .menu button:hover {
+  color: white;
+  background: gray;
+}
+.main-header .open-files {
+  margin: 10px;
+  display: flex;
+  overflow: auto;
+  max-width: 81vw;
+}
+.main-header .open-files .file {
+  border: 3px solid;
+  padding: 7px;
+  width: 100px;
+  min-width: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.main-header .open-files .file.selected {
+  border: 3px solid lime;
+}
+.main-header .open-files .file h3 {
+  margin: 0;
+  font-size: 1.5em;
+  line-height: 1.4;
+}
+.main-header .open-files .file h4 {
+  margin: 0;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1.4;
+}
+.main-header .open-files button {
+  
+}
+.main-header .open-files .previous {
+  margin-right: 10px;
+}
